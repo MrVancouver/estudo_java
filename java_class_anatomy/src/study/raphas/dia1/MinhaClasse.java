@@ -1,7 +1,10 @@
 package study.raphas.dia1;
 public class MinhaClasse {
     public static void main(String[] args) {
-        final int ano = 2020;
+        final int ANO = 2020;
+        double pi = 3.14;
+        short small_num = 10;
+        long large_num = 999999999; 
         boolean verdade = true;
         boolean mentira = false;
 
@@ -13,8 +16,6 @@ public class MinhaClasse {
 
         String media_final = media(6);
         System.out.println(media_final);
-
-
 }
     public static String nomeCompleto(String primero_nome, String segundo_nome){
         return "Seu nome é "+primero_nome.concat(" ").concat(segundo_nome);
@@ -27,5 +28,6 @@ public class MinhaClasse {
         else
             return "por pouco ein seu merda, fudido";
     }
+    
 }
 
